@@ -7,11 +7,12 @@ apples = int(input("How many apples?"))
 oranges = int(input("How many oranges?"))
 
 #function called for adding apples and orages
-add_fruit(apples, oranges)
-
+fruit = add_fruit(apples, oranges)
+print(fruit)
 
 #function for dividing apples and oranges
-divide_fruit(apples, oranges)
-
+divide = divide_fruit(apples, oranges)
+print(divide)
 #function for multiplying apples and oranges
-multiply_fruit(apples, oranges)
+multiply = multiply_fruit(apples, oranges)
+print(multiply)
