@@ -4,7 +4,7 @@ from divide import divide_fruit
 
 
 apples = int(input("How many apples?"))
-oranges = in(input("How many oranges?"))
+oranges = int(input("How many oranges?"))
 
 #function called for adding apples and orages
 add_fruit(apples, oranges)
